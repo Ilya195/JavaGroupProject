@@ -1,4 +1,4 @@
-package ru.netology;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -19,8 +19,8 @@ public class GameStore {
      * Создание объекта игры с заданными заголовком и жанром
      * Каждый объект игры помнит объект каталога, которому она принадлежит
      */
-    public Game publishGame(String title, String genre) {
-        Game game = new Game(title, genre);
+    public Game publishGame(String title, String genre,String store) {
+        Game game = new Game(title, genre,store);
         games.add(game);
         return game;
     }

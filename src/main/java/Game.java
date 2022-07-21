@@ -1,4 +1,4 @@
-package ru.netology;
+
 
 import java.util.Objects;
 
@@ -35,8 +35,8 @@ public class Game {
         }
 
         Game game = (Game) o;
-        return Objects.equals(title, game.title); &&
-        Objects.equals(genre, game.genre); &&
+        return Objects.equals(title, game.title)&&
+        Objects.equals(genre, game.genre) &&
         Objects.equals(store, game.store);
     }
 
