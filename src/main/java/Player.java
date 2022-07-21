@@ -1,4 +1,5 @@
 package ru.netology;
+import ru.netology.GameStore.GameStore;
 
 import java.util.HashMap;
 import java.util.Map;
