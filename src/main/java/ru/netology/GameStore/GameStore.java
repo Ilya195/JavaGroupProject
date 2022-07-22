@@ -1,5 +1,5 @@
 package ru.netology.GameStore;
-
+import ru.netology.Game.Game;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
