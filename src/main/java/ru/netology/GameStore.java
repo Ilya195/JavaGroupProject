@@ -20,7 +20,7 @@ public class GameStore {
      * Каждый объект игры помнит объект каталога, которому она принадлежит
      */
     public Game publishGame(String title, String genre) {
-        Game game = new Game(title, genre);
+        Game game = new Game(title, genre,this);
         games.add(game);
         return game;
     }
@@ -45,7 +45,7 @@ public class GameStore {
      */
     public void addPlayTime(String playerName, int hours) {
         if (playedTime.containsKey(playerName)) {
-            playedTime.put(playerName, playedTime.get(playerName));
+            playedTime.put(playerName, playedTime.getOrDefault(playerName,hours) + hours);
         } else {
             playedTime.put(playerName, hours);
         }

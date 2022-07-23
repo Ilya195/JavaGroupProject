@@ -33,11 +33,10 @@ public class Game {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-
         Game game = (Game) o;
-        return Objects.equals(title, game.title); &&
-        Objects.equals(genre, game.genre); &&
-        Objects.equals(store, game.store);
+        return Objects.equals(title, game.title) &&
+                Objects.equals(genre, game.genre) &&
+                Objects.equals(store, game.store);
     }
 
     @Override
