@@ -1,11 +1,13 @@
-package ru.netology;
+package ru.netology.GameStore;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import ru.netology.Game.Game;
 
 public class GameStore {
+
     private List<Game> games = new ArrayList<>();
 
     /**

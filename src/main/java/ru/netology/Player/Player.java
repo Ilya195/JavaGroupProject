@@ -1,7 +1,8 @@
-package ru.netology;
+package ru.netology.Player;
 
 import java.util.HashMap;
 import java.util.Map;
+import ru.netology.Game.Game;
 
 public class Player {
     private String name;

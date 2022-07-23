@@ -1,9 +1,10 @@
-package ru.netology;
+package ru.netology.Player;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import ru.netology.Game.Game;
+import ru.netology.GameStore.GameStore;
 
 public class PlayerTest {
 
