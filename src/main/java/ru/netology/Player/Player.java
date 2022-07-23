@@ -1,4 +1,4 @@
-package ru.netology;
+package ru.netology.Player;
 import ru.netology.GameStore.GameStore;
 import ru.netology.Game.Game;
 

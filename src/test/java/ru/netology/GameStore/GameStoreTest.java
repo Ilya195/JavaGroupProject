@@ -1,5 +1,6 @@
 package ru.netology.GameStore;
 import ru.netology.Game.Game;
+import ru.netology.Player.Player;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
