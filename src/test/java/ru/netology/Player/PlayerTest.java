@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import ru.netology.Game.Game;
 import ru.netology.GameStore.GameStore;
+import ru.netology.NotGameCatalog.NotGameCatalog;
 
 public class PlayerTest {
 

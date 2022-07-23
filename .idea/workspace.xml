@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7ce6794-5a97-43f7-89b6-1cadb590c86e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/NotGameCatalog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/GameStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/GameStore/GameStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/Player/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/Player/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/Player/PlayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "D:/Second Rp/JavaGroupProject/src/test/java/ru/netology"
+    "last_directory_selection": "D:/Second Rp/JavaGroupProject/src/main/java/ru/netology"
   }
 }]]></component>
   <component name="RunAnythingCache">

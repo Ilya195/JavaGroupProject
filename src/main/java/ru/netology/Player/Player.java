@@ -3,6 +3,7 @@ package ru.netology.Player;
 import java.util.HashMap;
 import java.util.Map;
 import ru.netology.Game.Game;
+import ru.netology.NotGameCatalog.NotGameCatalog;
 
 public class Player {
     private String name;
