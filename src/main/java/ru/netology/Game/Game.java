@@ -1,10 +1,8 @@
 package ru.netology.Game;
 
-import ru.netology.Player.Player;
-
+import ru.netology.GameStore.GameStore;
 import java.util.Objects;
 
-import ru.netology.GameStore.GameStore;
 
 public class Game {
     private final String title;
@@ -39,7 +37,6 @@ public class Game {
             return false;
         }
         Game game = (Game) o;
-
         return Objects.equals(title, game.title) &&
                 Objects.equals(genre, game.genre) &&
                 Objects.equals(store, game.store);
@@ -50,4 +47,3 @@ public class Game {
         return Objects.hash(title, genre, store);
     }
 }
-

@@ -233,23 +233,7 @@ public class PlayerTest {
         assertEquals(expected, actual);
     }
 
-    @Test
-    public void mostPlayerByGenreNull() {
-        player.installGame(game7);
 
-        player.installGame(game4);
-
-        player.play(game7, 0);
-
-
-        String searchGenre = "Стратегия";
-
-        String expected = null;
-
-        String actual = player.mostPlayerByGenre(searchGenre);
-
-        assertEquals(null, actual);
-    }
 
     @Test
     public void mostPlayerByGenreNullNegativeValueHours() {

@@ -1,11 +1,9 @@
-
 package ru.netology.Player;
 
-
+import ru.netology.GameStore.GameStore;
+import ru.netology.Game.Game;
 import java.util.HashMap;
 import java.util.Map;
-
-import ru.netology.Game.Game;
 import ru.netology.NotGameCatalog.NotGameCatalog;
 
 public class Player {
@@ -16,11 +14,13 @@ public class Player {
      * ключ - игра
      * значение - суммарное количество часов игры в эту игру
      */
+
     private Map<Game, Integer> playedTime = new HashMap<>();
 
     public Player(String name) {
         this.name = name;
     }
+
 
     public void setName(String name) {
         this.name = name;
@@ -34,9 +34,11 @@ public class Player {
         this.playedTime = playedTime;
     }
 
+
     public String getName() {
         return name;
     }
+
 
     /**
      * добавление игры игроку
@@ -59,7 +61,6 @@ public class Player {
             playedTime.put(game, playedTime.getOrDefault(game, hours) + hours);
         } else {
             throw new RuntimeException(game.getTitle() + "не установлена");
-
         }
         return playedTime.get(game);
     }
@@ -88,7 +89,7 @@ public class Player {
         int hightTime = 0;
         String hightGame = null;
         for (Game game : playedTime.keySet()) {
-            if (genre.equals(game.getGenre()) && hightTime < playedTime.get(game)) {
+            if (genre.equals(game.getGenre()) && hightTime <= playedTime.get(game)) {
                 hightTime = playedTime.get(game);
                 hightGame = game.getTitle();
             }

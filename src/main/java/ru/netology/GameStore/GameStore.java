@@ -1,12 +1,14 @@
 package ru.netology.GameStore;
 
+import ru.netology.Game.Game;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import ru.netology.Game.Game;
+
 
 public class GameStore {
+
 
     private List<Game> games = new ArrayList<>();
 
@@ -33,8 +35,8 @@ public class GameStore {
      * если игра есть и false иначе
      */
     public boolean containsGame(Game game) {
-        for (int i = 1; i < games.size(); i++) {
-            if (games.get(i - 1).equals(game)) {
+        for (int i = 0; i < games.size(); i++) {
+            if (games.get(i).equals(game)) {
                 return true;
             }
         }
@@ -76,6 +78,10 @@ public class GameStore {
      * за играми этого каталога
      */
     public int getSumPlayedTime() {
-        return 0;
+        int total = 0;
+        for (String playerName : playedTime.keySet()) {
+            total += playedTime.get(playerName);
+        }
+        return total;
     }
 }
