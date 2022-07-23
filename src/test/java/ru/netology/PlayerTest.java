@@ -22,6 +22,5 @@ public class PlayerTest {
     }
 
     // другие ваши тесты
-
 }
 
