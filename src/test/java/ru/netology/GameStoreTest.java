@@ -4,7 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
+import ru.netology.GameStore.GameStore;
+import ru.netology.Game.Game;
 public class GameStoreTest {
 
     GameStore store = new GameStore();

@@ -20,11 +20,10 @@ public class GameStore {
      * Каждый объект игры помнит объект каталога, которому она принадлежит
      */
     public Game publishGame(String title, String genre) {
-<<<<<<<< HEAD:src/main/java/ru/netology/GameStore.java
+
         Game game = new Game(title, genre,this);
-========
+
         Game game = new Game(title, genre, this);
->>>>>>>> 501144eb011976c744aa31fddeaed4f86112c1ab:src/main/java/ru/netology/GameStore/GameStore.java
         games.add(game);
         return game;
     }
