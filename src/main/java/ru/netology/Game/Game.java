@@ -1,12 +1,9 @@
-<<<<<<< HEAD:src/main/java/Game.java
-
-=======
 package ru.netology.Game;
 
-import ru.netology.Player;
->>>>>>> ea396c15870a2226dc63c703f75537cd4854bb44:src/main/java/ru/netology/Game/Game.java
+import ru.netology.Player.Player;
 
 import java.util.Objects;
+
 import ru.netology.GameStore.GameStore;
 
 public class Game {
@@ -42,15 +39,10 @@ public class Game {
             return false;
         }
         Game game = (Game) o;
-<<<<<<< HEAD:src/main/java/Game.java
-        return Objects.equals(title, game.title)&&
-        Objects.equals(genre, game.genre) &&
-        Objects.equals(store, game.store);
-=======
+
         return Objects.equals(title, game.title) &&
                 Objects.equals(genre, game.genre) &&
                 Objects.equals(store, game.store);
->>>>>>> ea396c15870a2226dc63c703f75537cd4854bb44:src/main/java/ru/netology/Game/Game.java
     }
 
     @Override
@@ -58,3 +50,4 @@ public class Game {
         return Objects.hash(title, genre, store);
     }
 }
+
