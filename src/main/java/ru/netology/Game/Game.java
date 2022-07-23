@@ -1,13 +1,14 @@
 package ru.netology.Game;
+
 import ru.netology.GameStore.GameStore;
-
-
 import java.util.Objects;
+
 
 public class Game {
     private final String title;
     private final String genre;
     private final GameStore store;
+
 
     public Game(String title, String genre, GameStore store) {
         this.title = title;

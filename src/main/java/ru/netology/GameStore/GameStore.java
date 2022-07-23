@@ -1,11 +1,15 @@
 package ru.netology.GameStore;
+
 import ru.netology.Game.Game;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
 public class GameStore {
+
+
     private List<Game> games = new ArrayList<>();
 
     /**
@@ -19,11 +23,9 @@ public class GameStore {
      * Создание объекта игры с заданными заголовком и жанром
      * Каждый объект игры помнит объект каталога, которому она принадлежит
      */
+
     public Game publishGame(String title, String genre) {
-
         Game game = new Game(title, genre,this);
-
-        Game game = new Game(title, genre, this);
         games.add(game);
         return game;
     }

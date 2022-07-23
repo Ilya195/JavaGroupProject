@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c7ce6794-5a97-43f7-89b6-1cadb590c86e" name="Changes" comment="" />
+=======
+    <list default="true" id="c7ce6794-5a97-43f7-89b6-1cadb590c86e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/GameStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/GameStoreTest.java" afterDir="false" />
+>>>>>>> ea396c15870a2226dc63c703f75537cd4854bb44
+    </list>
+>>>>>>> main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,13 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/Second Rp/JavaGroupProject/src/main/java/ru/netology&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/necro/IdeaProjects/JavaGroupProject/src/main/java/ru/netology"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="PlayerTest.shouldSumGenreIfOneGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaGroupProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="METHOD_NAME" value="shouldSumGenreIfOneGame" />
+=======
+    "last_directory_selection": "D:/Second Rp/JavaGroupProject/src/main/java/ru/netology"
+  }
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean verify" />
@@ -121,13 +143,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GameStoreTest" />
+=======
+    <configuration name="GameStoreTest.showReturnFalseContainsGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaGroupProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.GameStoreTest" />
+      <option name="METHOD_NAME" value="showReturnFalseContainsGame" />
+>>>>>>> ea396c15870a2226dc63c703f75537cd4854bb44
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+<<<<<<< HEAD
+        <item itemvalue="JUnit.PlayerTest.shouldSumGenreIfOneGame" />
+=======
+>>>>>>> main
         <item itemvalue="JUnit.GameStoreTest.showGetMostPlayerEquallyOne" />
         <item itemvalue="JUnit.GameStoreTest.shouldRegisteredAddPlayTime" />
         <item itemvalue="JUnit.GameStoreTest.showGetSumOnePlayedTime" />
         <item itemvalue="JUnit.GameStoreTest.showGetSumPlayedTime" />
+<<<<<<< HEAD
+=======
+        <item itemvalue="JUnit.GameStoreTest.showReturnFalseContainsGame" />
+>>>>>>> ea396c15870a2226dc63c703f75537cd4854bb44
+>>>>>>> main
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +209,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/PlayerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/Player/PlayerTest.java</url>
           <line>11</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>

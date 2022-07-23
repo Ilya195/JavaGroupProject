@@ -1,11 +1,11 @@
-package ru.netology;
+package ru.netology.GameStore;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import ru.netology.GameStore.GameStore;
 import ru.netology.Game.Game;
+
 public class GameStoreTest {
 
     GameStore store = new GameStore();
@@ -35,7 +35,8 @@ public class GameStoreTest {
 
         Game game = store.publishGame("Нетология Баттл Онлайн", "Аркады");
 
-        store.addPlayTime("Василий", 0);
+        store.addPlayTime("Василий",0);
+        //store.addPlayTime();
 
         String actual = store.getMostPlayer();
         String expected = "Василий";
