@@ -1,11 +1,17 @@
+<<<<<<< HEAD:src/main/java/GameStore.java
 
+=======
+package ru.netology.GameStore;
+>>>>>>> ea396c15870a2226dc63c703f75537cd4854bb44:src/main/java/ru/netology/GameStore/GameStore.java
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import ru.netology.Game.Game;
 
 public class GameStore {
+
     private List<Game> games = new ArrayList<>();
 
     /**
@@ -19,8 +25,13 @@ public class GameStore {
      * Создание объекта игры с заданными заголовком и жанром
      * Каждый объект игры помнит объект каталога, которому она принадлежит
      */
+<<<<<<< HEAD:src/main/java/GameStore.java
     public Game publishGame(String title, String genre,String store) {
         Game game = new Game(title, genre,store);
+=======
+    public Game publishGame(String title, String genre) {
+        Game game = new Game(title, genre,this);
+>>>>>>> ea396c15870a2226dc63c703f75537cd4854bb44:src/main/java/ru/netology/GameStore/GameStore.java
         games.add(game);
         return game;
     }
@@ -45,7 +56,7 @@ public class GameStore {
      */
     public void addPlayTime(String playerName, int hours) {
         if (playedTime.containsKey(playerName)) {
-            playedTime.put(playerName, playedTime.get(playerName));
+            playedTime.put(playerName, playedTime.getOrDefault(playerName,hours) + hours);
         } else {
             playedTime.put(playerName, hours);
         }

@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c7ce6794-5a97-43f7-89b6-1cadb590c86e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/GameStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/GameStoreTest.java" afterDir="false" />
+>>>>>>> ea396c15870a2226dc63c703f75537cd4854bb44
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "C:/Users/necro/IdeaProjects/JavaGroupProject/src/main/java/ru/netology"
   }
@@ -45,6 +50,92 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlayerTest" />
       <option name="METHOD_NAME" value="shouldSumGenreIfOneGame" />
+=======
+    "last_directory_selection": "D:/Second Rp/JavaGroupProject/src/main/java/ru/netology"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.GameStoreTest.showGetMostPlayerEquallyOne">
+    <configuration name="GameStoreTest.shouldRegisteredAddPlayTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaGroupProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.GameStoreTest" />
+      <option name="METHOD_NAME" value="shouldRegisteredAddPlayTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameStoreTest.showGetMostPlayerEquallyOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaGroupProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.GameStoreTest" />
+      <option name="METHOD_NAME" value="showGetMostPlayerEquallyOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameStoreTest.showGetSumOnePlayedTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaGroupProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.GameStoreTest" />
+      <option name="METHOD_NAME" value="showGetSumOnePlayedTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameStoreTest.showGetSumPlayedTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaGroupProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.GameStoreTest" />
+      <option name="METHOD_NAME" value="showGetSumPlayedTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameStoreTest.showReturnFalseContainsGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaGroupProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.GameStoreTest" />
+      <option name="METHOD_NAME" value="showReturnFalseContainsGame" />
+>>>>>>> ea396c15870a2226dc63c703f75537cd4854bb44
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -52,7 +143,15 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.PlayerTest.shouldSumGenreIfOneGame" />
+=======
+        <item itemvalue="JUnit.GameStoreTest.showGetMostPlayerEquallyOne" />
+        <item itemvalue="JUnit.GameStoreTest.shouldRegisteredAddPlayTime" />
+        <item itemvalue="JUnit.GameStoreTest.showGetSumOnePlayedTime" />
+        <item itemvalue="JUnit.GameStoreTest.showGetSumPlayedTime" />
+        <item itemvalue="JUnit.GameStoreTest.showReturnFalseContainsGame" />
+>>>>>>> ea396c15870a2226dc63c703f75537cd4854bb44
       </list>
     </recent_temporary>
   </component>
@@ -77,5 +176,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/Player/PlayerTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

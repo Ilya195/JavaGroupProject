@@ -1,7 +1,13 @@
+<<<<<<< HEAD:src/main/java/Player.java
 
+=======
+package ru.netology.Player;
+>>>>>>> ea396c15870a2226dc63c703f75537cd4854bb44:src/main/java/ru/netology/Player/Player.java
 
 import java.util.HashMap;
 import java.util.Map;
+import ru.netology.Game.Game;
+import ru.netology.NotGameCatalog.NotGameCatalog;
 
 public class Player {
     private String name;
@@ -13,6 +19,18 @@ public class Player {
 
     public Player(String name) {
         this.name = name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Map<Game, Integer> getPlayedTime() {
+        return playedTime;
+    }
+
+    public void setPlayedTime(Map<Game, Integer> playedTime) {
+        this.playedTime = playedTime;
     }
 
     public String getName() {
@@ -33,9 +51,10 @@ public class Player {
     public int play(Game game, int hours) {
         game.getStore().addPlayTime(name, hours);
         if (playedTime.containsKey(game)) {
-            playedTime.put(game, playedTime.get(game));
+            playedTime.put(game, playedTime.getOrDefault(game, hours) + hours);
         } else {
-            playedTime.put(game, hours);
+            throw new RuntimeException(game.getTitle() + "не установлена");
+
         }
         return playedTime.get(game);
     }
@@ -56,7 +75,15 @@ public class Player {
 
     /** Метод принимает жанр и возвращает игру этого жанра, в которую играли больше всего
      Если в игры этого жанра не играли, возвращается null */
-    public Game mostPlayerByGenre(String genre) {
-        return null;
+    public String mostPlayerByGenre(String genre) {
+        int hightTime = 0;
+        String hightGame = null;
+        for (Game game : playedTime.keySet()) {
+            if (genre.equals(game.getGenre()) && hightTime < playedTime.get(game)) {
+                hightTime = playedTime.get(game);
+                hightGame = game.getTitle();
+            }
+        }
+        return hightGame;
     }
 }
