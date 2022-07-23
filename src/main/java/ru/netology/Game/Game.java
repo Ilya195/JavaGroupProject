@@ -1,11 +1,16 @@
-package ru.netology;
+package ru.netology.Game;
+
+import ru.netology.Player.Player;
 
 import java.util.Objects;
+
+import ru.netology.GameStore.GameStore;
 
 public class Game {
     private final String title;
     private final String genre;
     private final GameStore store;
+
 
     public Game(String title, String genre, GameStore store) {
         this.title = title;
@@ -33,11 +38,11 @@ public class Game {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-
         Game game = (Game) o;
-        return Objects.equals(title, game.title); &&
-        Objects.equals(genre, game.genre); &&
-        Objects.equals(store, game.store);
+
+        return Objects.equals(title, game.title) &&
+                Objects.equals(genre, game.genre) &&
+                Objects.equals(store, game.store);
     }
 
     @Override
@@ -45,3 +50,4 @@ public class Game {
         return Objects.hash(title, genre, store);
     }
 }
+
