@@ -1,6 +1,7 @@
 package ru.netology.Game;
 import ru.netology.GameStore.GameStore;
 
+
 import java.util.Objects;
 
 public class Game {
@@ -36,8 +37,13 @@ public class Game {
         }
         Game game = (Game) o;
         return Objects.equals(title, game.title) &&
+<<<<<<< HEAD
                 Objects.equals(genre, game.genre) &&
                 Objects.equals(store, game.store);
+=======
+        Objects.equals(genre, game.genre) &&
+        Objects.equals(store, game.store);
+>>>>>>> 58607b6a8ef016dd359d1306835af9dbe44b400f
     }
 
     @Override
